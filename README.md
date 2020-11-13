@@ -28,7 +28,7 @@
 ## Specs
 
 | Behavior  | Input | Output  |
-| :---: | :---: |  :---:  |
+| :--- | :---: |  :---:  |
 |1. Create new instance of the Galactic_Age class, passing in user's name and age | Greg, 21 | object.values(greg) = ["Greg", 21]|
 |2. Accuratley produce input age in Mercury years rounded down to nearest whole number, which is about 88 Earth days per solar year.| Greg, 21 | greg.mercuryAge = 87|
 |3. Accuratley produce input age in Venus years rounded down to nearest whole number, which is about 225 Earth days per solar year.| Greg, 21 | greg.venusAge = 34|

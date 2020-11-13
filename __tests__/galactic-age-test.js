@@ -27,4 +27,9 @@ describe('Galactic_Age class and all its methods', () => {
     expect(greg.marsAge).toEqual(11);
   });
 
+  test('should properly create the marsAge property for greg', () => {
+    greg.jupiter();
+    expect(greg.jupiterAge).toEqual(11);
+  });
+
 });

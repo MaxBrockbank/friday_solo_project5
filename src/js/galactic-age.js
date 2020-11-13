@@ -19,4 +19,8 @@ export default class Galactic_Age {
     this.marsAge = Math.floor((365/687) * this.age);
   };
 
+  jupiter(){
+
+  };
+
 }
