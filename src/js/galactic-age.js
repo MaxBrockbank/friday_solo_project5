@@ -3,8 +3,8 @@ export default class Galactic_Age {
 
   constructor(name, age){
     this.name = name,
-    this.age = parseInt(age)
-
+    this.age = parseInt(age),
+    this.expectedLife = 72
   };
 
   mercury(){
