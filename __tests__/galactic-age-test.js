@@ -47,9 +47,9 @@ describe('Galactic_Age class and all its methods', () => {
     let keys = Array.from(planetsAndAges.keys());
     let values = Array.from(planetsAndAges.values());
     let results = greg.checkLifeExpectancy(keys, values);
-    expect(results[0]).toEqual(`${greg.name} is ${values[0] - greg.expectedLife} years older than expected to live on ${keys[0]}.`);
-    expect(results[1]).toEqual(`${greg.name} is expected to live ${greg.expectedLife - values[1]} more years on ${keys[1]}. Use them well.`);
-    expect(results[2]).toEqual(`${greg.name} is expected to live ${greg.expectedLife - values[2]} more years on ${keys[2]}. Use them well.`);
-    expect(results[3]).toEqual(`${greg.name} is expected to live ${greg.expectedLife - values[3]} more years on ${keys[3]}. Use them well.`);
+    expect(results).toEqual([`${greg.name} is ${values[0] - greg.expectedLife} years older than expected to live on ${keys[0]}.`, 
+    `${greg.name} is expected to live ${greg.expectedLife - values[1]} more years on ${keys[1]}. Use them well.`, 
+    `${greg.name} is expected to live ${greg.expectedLife - values[2]} more years on ${keys[2]}. Use them well.`, 
+    `${greg.name} is expected to live ${greg.expectedLife - values[3]} more years on ${keys[3]}. Use them well.`]);
   });
 });
