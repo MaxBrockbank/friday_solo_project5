@@ -37,6 +37,7 @@
 |6. Add average life expectancy of about 72 years as estimated by the UN in 2019, as expectedLife property to Galactic_Age class constructor||greg.expectedLife = 72|
 |7. Check life expectancy against different planet ages and return proper response|greg.mercuryAge|"15 years past life expectancy"|
 |8. Allow user to adjust life expectancy property, this will be another adjustment to the existing test for spec #1.|||
+
 ## Legal
 * Copyright © 2020 Max Brockbank
 * This software is licensed under the MIT license

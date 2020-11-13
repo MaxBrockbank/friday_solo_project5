@@ -33,10 +33,7 @@ describe('Galactic_Age class and all its methods', () => {
   });
 
   test('should check planet age passed in as argument against life expectancy of greg', () => {
-    greg.mercury();
-    greg.venus();
-    greg.mars();
-    greg.jupiter();
+    let results = greg.checkLifeExpectancy();
     const {mercuryAge, venusAge, marsAge, jupiterAge} = greg;
     let planetsAndAges = new Map([
       ['Mercury', mercuryAge],
@@ -46,7 +43,6 @@ describe('Galactic_Age class and all its methods', () => {
     ]);
     let keys = Array.from(planetsAndAges.keys());
     let values = Array.from(planetsAndAges.values());
-    let results = greg.checkLifeExpectancy(keys, values);
     expect(results).toEqual([`${greg.name} is ${values[0] - greg.expectedLife} years older than expected to live on ${keys[0]}.`, 
     `${greg.name} is expected to live ${greg.expectedLife - values[1]} more years on ${keys[1]}. Use them well.`, 
     `${greg.name} is expected to live ${greg.expectedLife - values[2]} more years on ${keys[2]}. Use them well.`, 

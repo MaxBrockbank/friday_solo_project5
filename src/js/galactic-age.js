@@ -23,8 +23,24 @@ export default class Galactic_Age {
     this.jupiterAge = Math.floor((365/4333) * this.age);
   };
 
-  checkLifeExpectancy(keys, values){
+  checkLifeExpectancy(){
+    this.mercury();
+    this.venus();
+    this.mars();
+    this.jupiter();
+    const {mercuryAge, venusAge, marsAge, jupiterAge} = this;
+
+    let planetsAndAges = new Map([
+      ['Mercury', mercuryAge],
+      ['Venus', venusAge],
+      ['Mars', marsAge],
+      ['Jupiter', jupiterAge]
+    ]);
+
+    let keys = Array.from(planetsAndAges.keys());
+    let values = Array.from(planetsAndAges.values());
     let planetExpectations = [];
+
     for (let i = 0; i < keys.length; i++){
       if(this.expectedLife < values[i]){
         planetExpectations.push(`${this.name} is ${values[i] - this.expectedLife} years older than expected to live on ${keys[i]}.`)
