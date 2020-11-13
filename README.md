@@ -35,6 +35,7 @@
 |4. Accuratley produce input age in Mars years, which is about 687 Earth days per solar year, rounded down to nearest whole number.|| greg.marsAge = 11|
 |5. Accuratley produce input age in Jupiter years, which is about 4,333 Earth days per solar year, rounded down to nearest whole number.|| greg.jupiterAge = 1|
 |6. Add average life expectancy of about 72 years as estimated by the UN in 2019, as expectedLife property to Galactic_Age class constructor||greg.expectedLife = 72|
+|7. Check life expectancy against different planet ages and return proper response|greg.mercuryAge|"15 years past life expectancy"|
 ## Legal
 * Copyright © 2020 Max Brockbank
 * This software is licensed under the MIT license
