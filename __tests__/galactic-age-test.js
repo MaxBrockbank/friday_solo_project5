@@ -11,8 +11,13 @@ describe('Galactic_Age class and all its methods', () => {
     expect(Object.values(greg)).toEqual(["Greg", 21]);
   });
 
-  test('should properly create the mercuryAge property for our greg object', () => {
+  test('should properly create the mercuryAge property for greg', () => {
     greg.mercuryAge();
-    expect(greg.mercuryAge).toEqual(87);
+    expect(greg.mercury).toEqual(87);
+  });
+
+  test('should properly create the venusAge property for greg', () => {
+    greg.venusAge();
+    expect(greg.venus).toEqual(34);
   });
 });

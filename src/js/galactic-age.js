@@ -7,10 +7,10 @@ export default class Galactic_Age {
 
   }
   mercuryAge(){
-    this.mercuryAge = Math.round((365/88) * this.age)
+    this.mercury = Math.round((365/88) * this.age)
   }
   venusAge(){
-    // this.mercuryAge = Math.round((365/227) * this.age)
+    // this.venus = Math.round((365/225) * this.age)
   }
 
 
