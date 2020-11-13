@@ -30,16 +30,11 @@
 | Behavior  | Input | Output  |
 | :--- | :---: |  :---:  |
 |1. Create new instance of the Galactic_Age class, passing in user's name and age | Greg, 21 | object.values(greg) = ["Greg", 21]|
-<<<<<<< HEAD
-|2. Accuratley produce input age in Mercury years rounded down to nearest whole number, which is about 88 Earth days per solar year.| Greg, 21 | greg.mercuryAge = 87|
-|3. Accuratley produce input age in Venus years rounded down to nearest whole number, which is about 225 Earth days per solar year.| Greg, 21 | greg.venusAge = 34|
-|4. Accuratley produce input age in Mars years rounded down to nearest whole number, which is about 687 Earth days per solar year.| Greg, 21 | greg.marsAge = 11|
-|5. Accuratley produce input age in Jupiter years rounded down to nearest whole number, which is about 4,333 Earth days per solar year.| Greg, 21 | greg.jupiterAge = 1|
-=======
-|2. Accuratley produce input age in Mercury years, which is about 88 Earth days per solar year.| Greg, 21 | greg.mercuryAge = 87|
-|3. Accuratley produce input age in Venus years, which is about 225 Earth days per solar year.| Greg, 21 | greg.venusAge = 34|
-|4. Accuratley produce input age in Mars years, which is about 687 Earth days per solar year.| Greg, 21 | greg.marsAge = 11|
->>>>>>> 66a2d380c65711358cb121e91d4b47585a44d02f
+|2. Accuratley produce input age in Mercury years, which is about 88 Earth days per solar year, rounded down to nearest whole number.|| greg.mercuryAge = 87|
+|3. Accuratley produce input age in Venus years, which is about 225 Earth days per solar year, rounded down to nearest whole number.|| greg.venusAge = 34|
+|4. Accuratley produce input age in Mars years, which is about 687 Earth days per solar year, rounded down to nearest whole number.|| greg.marsAge = 11|
+|5. Accuratley produce input age in Jupiter years, which is about 4,333 Earth days per solar year, rounded down to nearest whole number.|| greg.jupiterAge = 1|
+|6. Add average life expectancy of about 72 years as estimated by the UN in 2019, as expectedLife property to Galactic_Age class constructor||greg.expectedLife = 72|
 ## Legal
 * Copyright © 2020 Max Brockbank
 * This software is licensed under the MIT license
