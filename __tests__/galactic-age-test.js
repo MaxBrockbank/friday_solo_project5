@@ -12,12 +12,19 @@ describe('Galactic_Age class and all its methods', () => {
   });
 
   test('should properly create the mercuryAge property for greg', () => {
-    greg.mercuryAge();
-    expect(greg.mercury).toEqual(87);
+    greg.mercury();
+    expect(greg.mercuryAge).toEqual(87);
   });
 
   test('should properly create the venusAge property for greg', () => {
-    greg.venusAge();
-    expect(greg.venus).toEqual(34);
+    greg.venus();
+    expect(greg.venusAge).toEqual(34);
   });
+  
+
+  test('should properly create the marsAge property for greg', () => {
+    greg.mars();
+    expect(greg.marsAge).toEqual(11);
+  });
+
 });
