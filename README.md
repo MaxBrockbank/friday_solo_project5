@@ -28,7 +28,7 @@
 ## Specs
 
 | Behavior  | Input | Output  |
-| :--- | :---: |  :---:  |
+| :--- | :---: |  :---  |
 |1. Create new instance of the Galactic_Age class, passing in user's name and age | Greg, 21 | object.values(greg) = ["Greg", 21]|
 |2. Accuratley produce input age in Mercury years, which is about 88 Earth days per solar year, rounded down to nearest whole number.|| greg.mercuryAge = 87|
 |3. Accuratley produce input age in Venus years, which is about 225 Earth days per solar year, rounded down to nearest whole number.|| greg.venusAge = 34|
@@ -36,6 +36,7 @@
 |5. Accuratley produce input age in Jupiter years, which is about 4,333 Earth days per solar year, rounded down to nearest whole number.|| greg.jupiterAge = 1|
 |6. Add average life expectancy of about 72 years as estimated by the UN in 2019, as expectedLife property to Galactic_Age class constructor||greg.expectedLife = 72|
 |7. Check life expectancy against different planet ages and return proper response|greg.mercuryAge|"15 years past life expectancy"|
+|8. Allow user to adjust life expectancy property, this will be another adjustment to the existing test for spec #1.|||
 ## Legal
 * Copyright © 2020 Max Brockbank
 * This software is licensed under the MIT license
