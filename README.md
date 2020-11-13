@@ -27,8 +27,9 @@
 
 ## Specs
 
-| Test  | Input | Output  |
+| Behavior  | Input | Output  |
 | :---: | :---: |  :---:  |
+|Create new instance of the Galactic_Age class, passing in user's name and age |Greg, 21 | let greg = new Galactic_Age("Greg", 21)|
 ## Legal
 * Copyright © 2020 Max Brockbank
 * This software is licensed under the MIT license
