@@ -4,11 +4,11 @@ import Galactic_Age from './../src/js/galactic-age.js';
 describe('Galactic_Age class and all its methods', () => {
   let greg;
   beforeEach(() => {
-    greg = new Galactic_Age("Greg", 21);
+    greg = new Galactic_Age("Greg", 21, 5, 10);
   });
 
   test('should properly create a Galactic_Age object with input name and age in Earths solar years', () => {
-    expect(Object.values(greg)).toEqual(["Greg", 21, 72]);
+    expect(Object.values(greg)).toEqual(["Greg", 21, 77]);
   });
 
   test('should properly create the mercuryAge property for greg', () => {
@@ -51,6 +51,5 @@ describe('Galactic_Age class and all its methods', () => {
     expect(results[1]).toEqual(`${greg.name} is expected to live ${greg.expectedLife - values[1]} more years on ${keys[1]}. Use them well.`);
     expect(results[2]).toEqual(`${greg.name} is expected to live ${greg.expectedLife - values[2]} more years on ${keys[2]}. Use them well.`);
     expect(results[3]).toEqual(`${greg.name} is expected to live ${greg.expectedLife - values[3]} more years on ${keys[3]}. Use them well.`);
-  })
-
+  });
 });
