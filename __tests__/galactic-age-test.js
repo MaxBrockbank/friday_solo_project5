@@ -8,7 +8,7 @@ describe('Galactic_Age class and all its methods', () => {
   });
 
   test('should properly create a Galactic_Age object with input name and age in Earths solar years', () => {
-    expect(Object.values(greg)).toEqual(["Greg", 21]);
+    expect(Object.values(greg)).toEqual(["Greg", 21, 72]);
   });
 
   test('should properly create the mercuryAge property for greg', () => {
