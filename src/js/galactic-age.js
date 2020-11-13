@@ -20,7 +20,7 @@ export default class Galactic_Age {
   };
 
   jupiter(){
-
+    this.jupiterAge = Math.floor((365/4333) * this.age);
   };
 
 }
