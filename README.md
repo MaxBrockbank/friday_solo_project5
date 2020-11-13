@@ -29,7 +29,9 @@
 
 | Behavior  | Input | Output  |
 | :---: | :---: |  :---:  |
-|1. Create new instance of the Galactic_Age class, passing in user's name and age |Greg, 21 | let greg = new Galactic_Age("Greg", 21)|
+|1. Create new instance of the Galactic_Age class, passing in user's name and age | Greg, 21 | object.values(greg) = ["Greg", 21]|
+|2. Accuratley produce input age in Mercury years, which is about 88 Earth days per solar year.| Greg, 21 | greg.mercuryAge = 87|
+|3. Accuratley produce input age in Venus years, which is about 225 Earth days per solar year.| Greg, 21 | greg.venusAge = 34|
 ## Legal
 * Copyright © 2020 Max Brockbank
 * This software is licensed under the MIT license
