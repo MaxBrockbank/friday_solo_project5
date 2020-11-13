@@ -32,7 +32,7 @@
 |1. Create new instance of the Galactic_Age class, passing in user's name and age | Greg, 21 | object.values(greg) = ["Greg", 21]|
 |2. Accuratley produce input age in Mercury years, which is about 88 Earth days per solar year.| Greg, 21 | greg.mercuryAge = 87|
 |3. Accuratley produce input age in Venus years, which is about 225 Earth days per solar year.| Greg, 21 | greg.venusAge = 34|
-|3. Accuratley produce input age in Mars years, which is about 687 Earth days per solar year.| Greg, 21 | greg.venusAge = 34|
+|4. Accuratley produce input age in Mars years, which is about 687 Earth days per solar year.| Greg, 21 | greg.marsAge = 11|
 ## Legal
 * Copyright © 2020 Max Brockbank
 * This software is licensed under the MIT license
