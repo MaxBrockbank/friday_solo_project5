@@ -23,4 +23,15 @@ export default class Galactic_Age {
     this.jupiterAge = Math.floor((365/4333) * this.age);
   };
 
+  checkLifeExpectancy(planets){
+    // planets.forEach( planet => {
+    //   if(this.expectedLife < planet){
+    //     return `${this.name} is ${planetAge - this.expectedLife} years older than expected to live.`
+    //   } else if ( this.expectedLife === planet){
+    //     return `${this.name} isnt expected to live much longer...`
+    //   } else {
+    //     return `${this.name} is expected to live ${this.expectedLife - planet} more years. Use them well.`
+    //   }
+    // })
+  }
 }

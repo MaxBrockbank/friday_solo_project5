@@ -32,4 +32,15 @@ describe('Galactic_Age class and all its methods', () => {
     expect(greg.jupiterAge).toEqual(1);
   });
 
+  test('should check planet age passed in as argument against life expectancy of greg', () => {
+    greg.mercury();
+    greg.venus();
+    greg.mars();
+    greg.jupiter();
+    const {mercuryAge, venusAge, marsAge, jupiterAge} = greg;
+    let ageArray = [mercuryAge, venusAge, marsAge, jupiterAge];
+    greg.checkLifeExpectancy(ageArray);
+    expect(ageArray[2]).toEqual(`${greg.name} is expected to live ${greg.expectedLife - ageArray[2]} more years. Use them well.`);
+  })
+
 });
