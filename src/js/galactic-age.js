@@ -1,10 +1,10 @@
 
 export default class Galactic_Age {
 
-  constructor(name, age, subYears, addYears){
+  constructor(name, age, changeBy){
     this.name = name,
     this.age = parseInt(age),
-    this.expectedLife = (72 - subYears) + addYears;
+    this.expectedLife = (changeBy) + 72;
   };
 
   mercury(){
