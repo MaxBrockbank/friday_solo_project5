@@ -16,7 +16,7 @@ export default class Galactic_Age {
   };
 
   mars(){
-    // this.marsAge = Math.round((365/687) * this.age);
+    this.marsAge = Math.round((365/687) * this.age);
   };
 
 }
