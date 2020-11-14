@@ -3,7 +3,7 @@ export default class Galactic_Age {
 
   constructor(name, age, changeBy){
     this.name = name,
-    this.age = parseInt(age),
+    this.age = age,
     this.expectedLife = (changeBy) + 72;
   };
 

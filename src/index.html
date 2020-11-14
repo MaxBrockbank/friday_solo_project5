@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galactic Age Calculator</title>
+</head>
+<body>
+  <div class="container">
+    <form id="user-info">
+      <div class="form-group">
+        <label for="">Name</label>
+        <input type="text" name="name" id="name" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input type="number" name ="age" id="age" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="exercise">How often do you exercise?</label>
+        <select name="exercise" id="exercise" class="form-control">
+          <option selected="selected" disabled >Select One Please</option>
+          <option value="-10">Never(0 days a week)</option>
+          <option value="0">Once in a while(1-2 a month)</option>
+          <option value="10">Regularly(2-5 times a week)</option>
+        </select>
+      </div>
+      <div class="form-group" >
+        <label for="water">How much water do you drink a day?</label>
+        <select name="water" id="water" class="form-control">
+          <option selected="selected" disabled >Select One Please</option>
+          <option value="-5">8 - 32 oz.</option>
+          <option value="0">64 oz. - 1 gal.</option>
+          <option value="5">1 gal. +</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="stress">How stressed on an average day?</label>
+        <select name="stress" id="stress" class="form-control">
+          <option selected="selected" disabled >Select One Please</option>
+          <option value="-10">VERY stressed</option>
+          <option value="-3">Slightly stressed</option>
+          <option value="0">Not stressed at all</option>
+        </select>
+      </div>
+      <button class="submit btn btn-dark" type="submit">Submit</button>
+    </form>
+    <div id="showResults"></div>
+  </div>
+</body>
+</html>
