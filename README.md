@@ -1,4 +1,4 @@
-<h1 align="center">~<!-- Add Project Title Here -->~</h1>
+<h1 align="center">~Galactic Age Calculator~</h1>
 <div align="center">
 <img src="https://github.com/MaxBrockbank.png" width="200px" height="auto" >
 </div>
@@ -6,6 +6,7 @@
 <p align="center">Updated on Nov 13th, 2020</p>
 
 ## Description
+Takes in user input, creating a new object whose methods calculate how old you would be in terms of other planets years. Utilizes JavaScript classes and class methods, template literals, and the NPM package Jest for testing and using TDD concepts.  
 
 ## Required Technologies
 * Modern Browser
@@ -24,6 +25,7 @@
 * NPM/Webpack/Jest
 
 ## Known Bugs
+* UI has no validation so you could submit the form without any input and get the response text back with NaN where ages should be and no name filled in. 
 
 ## Specs
 
