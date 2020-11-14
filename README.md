@@ -18,7 +18,6 @@ Takes in user input, creating a new object whose methods calculate how old you w
 1. Clone this repo to your desktop
 2. Run ``npm install to get node modules``
 3. Run ``npm run start`` to start development server and view in the broweser
-* _Alternatively you can click just click [HERE]()_
 
 ## Technologies Used
 * JavaScript/jQuery
