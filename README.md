@@ -3,7 +3,7 @@
 <img src="https://github.com/MaxBrockbank.png" width="200px" height="auto" >
 </div>
 <p align="center">Authored by Max Brockabnk</p>
-<p align="center">Updated on Nov 13th, 2020</p>
+<p align="center">Updated on Feb 1th, 2021</p>
 
 ## Description
 Takes in user input, creating a new object whose methods calculate how old you would be in terms of other planets years. Utilizes JavaScript classes and class methods, template literals, and the NPM package Jest for testing and using TDD concepts.  
